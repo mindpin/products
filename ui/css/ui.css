@@ -1,0 +1,270 @@
+@charset "UTF-8";
+body {
+  background-color: #222;
+  padding: 0;
+  margin: 0;
+  font-family: helvetica, arial, 微软雅黑;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #222; }
+  body p {
+    margin: 0;
+    padding: 0; }
+  body h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: helvetica, arial, 微软雅黑;
+    margin-bottom: 10px; }
+  body hr {
+    border: 0 none;
+    height: 0;
+    line-height: 0;
+    border-bottom: dashed 1px #ccc; }
+  body ul {
+    padding: 0;
+    margin: 0; }
+    body ul li {
+      padding: 0;
+      margin: 0;
+      margin-left: 20px; }
+
+body {
+  background-color: #fff; }
+  body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    background: url(../images/wallpaper2.png) center right;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.3); }
+  body .header {
+    width: 1000px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative; }
+    body .header .eshare-logo {
+      width: 218px;
+      height: 60px;
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      background: url(../images/eshare-logo.png); }
+    body .header .logo-text {
+      width: 550px;
+      height: 220px;
+      position: absolute;
+      top: 100px;
+      left: 30px;
+      background: url(../images/logo-text.png); }
+    body .header .android-cover {
+      width: 161px;
+      height: 300px;
+      position: absolute;
+      top: 60px;
+      right: 0px;
+      background: url(../images/android-cover.png); }
+    body .header .pc-cover {
+      width: 488px;
+      height: 300px;
+      position: absolute;
+      top: 140px;
+      right: 30px;
+      background: url(../images/pc-cover.png); }
+    body .header a.preview {
+      border: solid 1px rgba(255, 255, 255, 0.9);
+      background-color: rgba(255, 255, 255, 0.9);
+      position: absolute;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      width: 160px;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+      left: 40px;
+      top: 310px;
+      font-weight: bold; }
+      body .header a.preview i {
+        color: #666;
+        margin-right: 10px; }
+      body .header a.preview:hover {
+        background-color: white; }
+  body .content {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 60px; }
+    body .content h1 {
+      color: #2E424D;
+      font-weight: normal;
+      font-size: 24px;
+      border-bottom: solid 1px #ddd;
+      padding-bottom: 30px;
+      margin-left: 40px;
+      margin-right: 40px; }
+    body .content .product {
+      float: left;
+      width: 50%;
+      margin-top: 30px; }
+      body .content .product h2 {
+        color: #2E424D;
+        font-weight: normal;
+        font-size: 18px;
+        margin: 0;
+        margin-left: 190px; }
+      body .content .product p {
+        margin-left: 190px;
+        margin-top: 10px;
+        color: #666; }
+      body .content .product a {
+        display: block;
+        margin-left: 190px;
+        margin-top: 20px;
+        color: white;
+        background: #159BC9;
+        height: 32px;
+        line-height: 32px;
+        width: 120px;
+        border-radius: 5px;
+        text-decoration: none;
+        text-align: center; }
+        body .content .product a i {
+          opacity: 0.7;
+          margin-right: 5px; }
+      body .content .product .num {
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        color: #0AB4F1;
+        font-family: arial;
+        font-size: 30px;
+        font-weight: bold;
+        border: solid 2px #ddd;
+        border-radius: 100px; }
+  body .content.aboutus p {
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 1.8em; }
+  body .content.info .block.doc {
+    border-bottom: dashed 1px #ddd; }
+  body .content.info .block {
+    margin: 0 40px;
+    overflow: hidden;
+    margin-bottom: 30px; }
+    body .content.info .block h2 {
+      color: #159BC9;
+      font-weight: normal;
+      margin: 0;
+      margin-bottom: 20px;
+      font-size: 18px;
+      height: 32px;
+      line-height: 32px; }
+      body .content.info .block h2 i {
+        background-color: #2C9BE2;
+        color: white;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 14px;
+        text-align: center;
+        margin-right: 10px;
+        border-radius: 30px; }
+      body .content.info .block h2 span {
+        position: relative;
+        top: 2px; }
+    body .content.info .block .doc {
+      height: 75px;
+      position: relative;
+      margin-bottom: 20px;
+      margin-right: 40px;
+      float: left; }
+      body .content.info .block .doc:before {
+        content: "";
+        width: 75px;
+        height: 75px;
+        background: url(../images/fileico_v4.png) -150px -144px;
+        position: absolute; }
+      body .content.info .block .doc.zip:before {
+        background: url(../images/fileico_v4.png) -450px -144px; }
+      body .content.info .block .doc .title {
+        margin-left: 100px; }
+      body .content.info .block .doc a.download {
+        margin-left: 100px;
+        display: block;
+        background: #159BC9;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        height: 32px;
+        line-height: 32px;
+        width: 120px;
+        text-decoration: none;
+        margin-top: 15px; }
+    body .content.info .block .features .feature {
+      float: left;
+      width: 33%; }
+      body .content.info .block .features .feature h3 {
+        color: #0b546d;
+        font-weight: normal;
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 18px;
+        height: 32px;
+        line-height: 32px;
+        margin-left: 20px; }
+        body .content.info .block .features .feature h3 i {
+          background-color: #146294;
+          color: white;
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          font-size: 14px;
+          text-align: center;
+          margin-right: 10px;
+          border-radius: 30px; }
+        body .content.info .block .features .feature h3 span {
+          position: relative;
+          top: 2px; }
+      body .content.info .block .features .feature .desc {
+        margin-left: 20px;
+        font-size: 16px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        height: 100px; }
+      body .content.info .block .features .feature .snap {
+        margin-bottom: 20px;
+        margin-left: 19px;
+        position: relative; }
+        body .content.info .block .features .feature .snap img {
+          display: block;
+          width: 260px;
+          border: solid 1px #ddd;
+          padding: 2px; }
+        body .content.info .block .features .feature .snap span {
+          border-radius: 5px;
+          margin-top: 3px;
+          width: 246px;
+          display: block;
+          height: 32px;
+          line-height: 32px;
+          background-color: #f7f7f7;
+          padding: 0 10px;
+          font-size: 14px; }
+          body .content.info .block .features .feature .snap span i {
+            margin-right: 10px;
+            color: #FF4400; }
+  body .foot {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    border-top: solid 1px #ddd; }
