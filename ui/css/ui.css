@@ -149,10 +149,25 @@ body {
         font-weight: bold;
         border: solid 2px #ddd;
         border-radius: 100px; }
-  body .content.aboutus p {
-    margin-left: 40px;
-    margin-right: 40px;
-    line-height: 1.8em; }
+  body .content.aboutus {
+    position: relative; }
+    body .content.aboutus p {
+      margin-left: 40px;
+      margin-right: 40px;
+      line-height: 1.8em; }
+    body .content.aboutus .logo-2013 {
+      width: 180px;
+      height: 180px;
+      background: url(../images/logo_2013.png) no-repeat 3px 3px;
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      -webkit-transform: scale(0.6, 0.6);
+      -moz-transform: scale(0.6, 0.6);
+      -ms-transform: scale(0.6, 0.6);
+      -o-transform: scale(0.6, 0.6);
+      padding: 3px;
+      border: solid 1px #ddd; }
   body .content.info .block.doc {
     border-bottom: dashed 1px #ddd; }
   body .content.info .block {
@@ -251,8 +266,9 @@ body {
           border: solid 1px #ddd;
           padding: 2px; }
         body .content.info .block .features .feature .snap span {
-          border-radius: 5px;
-          margin-top: 3px;
+          font-weight: bold;
+          border-bottom: solid 2px rgba(0, 0, 0, 0.4);
+          margin-top: 1px;
           width: 246px;
           display: block;
           height: 32px;
@@ -262,9 +278,13 @@ body {
           font-size: 14px; }
           body .content.info .block .features .feature .snap span i {
             margin-right: 10px;
-            color: #FF4400; }
+            color: #F9AA29; }
   body .foot {
+    clear: both;
     width: 1000px;
     margin: 0 auto;
     position: relative;
-    border-top: solid 1px #ddd; }
+    border-top: solid 1px #ddd;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 30px; }

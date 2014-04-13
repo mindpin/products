@@ -176,9 +176,19 @@ body {
   }
 
   .content.aboutus {
+    position:relative;
     p {
       margin-left:40px;margin-right:40px;
       line-height:1.8em;
+    }
+    .logo-2013 {
+      width:180px;height:180px;
+      background:url(../images/logo_2013.png) no-repeat 3px 3px;
+      position:absolute;
+      top:20px;right:50px;
+      @include transform(scale(0.6, 0.6));
+      padding:3px;
+      border:solid 1px #ddd;
     }
   }
 
@@ -299,15 +309,24 @@ body {
               padding:2px;
             }
             span {
-              border-radius:5px;
-              margin-top:3px;
+              font-weight:bold;
+              // border-radius:5px;
+              border-bottom:solid 2px rgba(black, 0.4);
+              margin-top:1px;
               width:246px;
               display:block;
               height:32px;line-height:32px;
               background-color:#f7f7f7;
               padding:0 10px;
               font-size:14px;
-              i {margin-right:10px;color:#FF4400;}
+              i {margin-right:10px;color:#F9AA29;}
+
+              // position:absolute;
+              // bottom:3px;
+              // left:3px;width:240px;
+              // background:rgba(black, 0.7);
+              // color:white;
+              // border-radius:0;
             }
           }
         }
@@ -316,9 +335,13 @@ body {
   }
 
   .foot {
+    clear:both;
     width:1000px;
     margin:0 auto;
     position:relative;
     border-top:solid 1px #ddd;
+
+    height:60px;line-height:60px;
+    margin-bottom:30px;
   }
 }
