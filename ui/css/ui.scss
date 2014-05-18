@@ -311,7 +311,7 @@ body {
             span {
               font-weight:bold;
               // border-radius:5px;
-              border-bottom:solid 2px rgba(black, 0.4);
+              border-bottom:solid 2px rgba(black, 0.2);
               margin-top:1px;
               width:246px;
               display:block;
@@ -327,6 +327,23 @@ body {
               // background:rgba(black, 0.7);
               // color:white;
               // border-radius:0;
+              border-radius:0 0 3px 3px;
+            }
+            a.button {
+              display:block;
+              background-color:#146294;
+              color:white;
+              border-radius:3px;
+              height:32px;line-height:32px;
+              text-decoration:none;
+              text-align:center;
+              width:266px;
+              margin-top:10px;
+
+              i {margin-right:10px;margin-left:-20px;}
+              &:hover {
+                background-color:lighten(#146294, 10%);
+              }
             }
           }
         }

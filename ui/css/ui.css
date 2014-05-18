@@ -267,7 +267,7 @@ body {
           padding: 2px; }
         body .content.info .block .features .feature .snap span {
           font-weight: bold;
-          border-bottom: solid 2px rgba(0, 0, 0, 0.4);
+          border-bottom: solid 2px rgba(0, 0, 0, 0.2);
           margin-top: 1px;
           width: 246px;
           display: block;
@@ -275,10 +275,27 @@ body {
           line-height: 32px;
           background-color: #f7f7f7;
           padding: 0 10px;
-          font-size: 14px; }
+          font-size: 14px;
+          border-radius: 0 0 3px 3px; }
           body .content.info .block .features .feature .snap span i {
             margin-right: 10px;
             color: #F9AA29; }
+        body .content.info .block .features .feature .snap a.button {
+          display: block;
+          background-color: #146294;
+          color: white;
+          border-radius: 3px;
+          height: 32px;
+          line-height: 32px;
+          text-decoration: none;
+          text-align: center;
+          width: 266px;
+          margin-top: 10px; }
+          body .content.info .block .features .feature .snap a.button i {
+            margin-right: 10px;
+            margin-left: -20px; }
+          body .content.info .block .features .feature .snap a.button:hover {
+            background-color: #1a80c1; }
   body .foot {
     clear: both;
     width: 1000px;
